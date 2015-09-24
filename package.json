@@ -1,0 +1,11 @@
+{
+  "dat": {},
+  "name": "npm",
+  "dependencies": {
+    "split2": "^1.0.0",
+    "dat": "7.1.2"
+  },
+  "scripts": {
+    "array-or-object": "dat pull http://npm.dathub.org && dat export -d modules | node ./array-or-object.js > array-object"
+  }
+}
